@@ -368,7 +368,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-auth-0-callback-js","jsonName":"auth-0-callback-29f","path":"/auth0_callback/"},{"componentChunkName":"component---src-pages-page-2-js","jsonName":"page-2-fbc","path":"/page-2/"},{"componentChunkName":"component---src-pages-profile-js","jsonName":"profile-2a3","path":"/profile/"},{"componentChunkName":"component---src-pages-app-js","jsonName":"app-f4d","path":"/app/","matchPath":"/app/*"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","app-f4d":"53/path---app-f-4-d-201-EL1Va90kR4oqYPhXw5v5axaD3JQ","auth-0-callback-29f":"576/path---auth-0-callback-29-f-94c-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","page-2-fbc":"726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8","profile-2a3":"716/path---profile-2-a-3-b0c-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-image-js":2011440971,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-auth-0-callback-js","jsonName":"auth-0-callback-29f","path":"/auth0_callback/"},{"componentChunkName":"component---src-pages-page-2-js","jsonName":"page-2-fbc","path":"/page-2/"},{"componentChunkName":"component---src-pages-profile-js","jsonName":"profile-2a3","path":"/profile/"},{"componentChunkName":"component---src-pages-app-js","jsonName":"app-f4d","path":"/app/","matchPath":"/app/*"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","app-f4d":"53/path---app-f-4-d-201-EL1Va90kR4oqYPhXw5v5axaD3JQ","auth-0-callback-29f":"576/path---auth-0-callback-29-f-94c-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","page-2-fbc":"726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8","profile-2a3":"716/path---profile-2-a-3-b0c-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-image-js":2011440971,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884}};
 
 /***/ }),
 
@@ -21250,7 +21250,7 @@ function () {
     this.auth0 = new auth0_js__WEBPACK_IMPORTED_MODULE_1__["default"].WebAuth({
       domain: AUTH0_DOMAIN,
       clientID: AUTH0_CLIENT_ID,
-      redirectUri: 'http://localhost:8000/auth0_callback',
+      redirectUri: 'https://reverent-swartz-f8c1a5.netlify.com/auth0_callback',
       audience: "https://" + AUTH0_DOMAIN + "/api/v2/",
       responseType: 'token id_token',
       scope: 'openid profile email'
