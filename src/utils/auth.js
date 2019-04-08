@@ -1,5 +1,6 @@
 import auth0 from 'auth0-js';
 import { navigateTo } from "gatsby-link";
+import localStorage from "localStorage";
 
 const AUTH0_DOMAIN = 'dev-z-1i6ajk.auth0.com';
 const AUTH0_CLIENT_ID = 'ilxzjE8ooJVUdqHEVQOVvYOcZllp6A3m';
@@ -33,6 +34,8 @@ export default class Auth {
   }
 
   handleAuthentication() {
+	
+
     if (typeof window !== 'undefined') {
       this.auth0.parseHash((err, authResult) => {
         if (authResult && authResult.accessToken && authResult.idToken) {

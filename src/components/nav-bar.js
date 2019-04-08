@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, navigate } from "gatsby"
+import { Link } from "gatsby"
 import Auth from '../utils/auth'
 import Login from '../components/Login'
 
